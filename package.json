@@ -1,0 +1,33 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wizardiq/Landing-page.git"
+  },
+  "author": "vmaksimov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wizardiq/Landing-page/issues"
+  },
+  "homepage": "https://github.com/Wizardiq/Landing-page#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "butternut": "^0.4.6",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-less": "^4.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglify-es": "^2.0.0",
+    "mailgun-js": "^0.22.0"
+  },
+  "dependencies": {}
+}

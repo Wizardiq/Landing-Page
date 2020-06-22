@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header" id="up">
+        <div class="container">
+            <img class="header__logo" src="img/logo.png" alt="">
+            <div class="header__contacts">
+                <a class="header__phone" href="tel:+380999999999">+38 (099) 999-99-99</a>
+                <button class="header__button callback-button" type="button" value="Заказать">
+                    Заказать
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="main" id="main">
+        <div class="wrapper">
+            <input type="checkbox" id="check-menu">
+            <label class="check-menu__label" for="check-menu">МЕНЮ</label>
+            <div class="burger-line first"></div>
+            <div class="burger-line second"></div>
+            <div class="burger-line third"></div>
+            <div class="burger-line fourth"></div>
+            <nav class="box-menu">
+                <a class="menu__item menu__item_mobile" href="#main">Главная</a>
+                <a class="menu__item menu__item_mobile" href="#advantages">Преимущества</a>
+                <a class="menu__item menu__item_mobile" href="#price">Стоимость</a>
+                <a class="menu__item menu__item_mobile" href="#reviews">Отзывы</a>
+            </nav>
+        </div>
+
+        <div class="container">
+            <nav class="main__menu">
+                <li><a class="menu__item menu__item_desktop" href="#main">Главная</a></li>
+                <li><a class="menu__item menu__item_desktop" href="#advantages">Преимущества</a></li>
+                <li><a class="menu__item menu__item_desktop" href="#price">Стоимость</a></li>
+                <li><a class="menu__item menu__item_desktop" href="#reviews">Отзывы</a></li>
+            </nav>
+            <div class="main__info">
+                <div class="main__about">
+                    <h1 class="main__title">
+                        <span class="title__span">Lorem ipsum</span> dolor sit amet, consecte-tur adipiscing
+                    </h1>
+                    <p class="main__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor incididunt ut labore et dolore magna aliqua.Quis ipsum
+                    </p>
+                </div>
+                <div class="main__order">
+                    <form class="form">
+                            <div class="form__item">
+                                <div class="form__title">Ваше имя</div>
+                                <input type="text" class="form__input" placeholder="Имя" required name="user_name">
+                            </div>
+                            <div class="form__item">
+                                <div class="form__title">Телефон</div>
+                                <input type="number" class="form__input" placeholder="Телефон" required name="user_phone">
+                            </div>
+                            <div class="form__item">
+                                <div class="form__title">Ваши номера</div>
+                                <input type="text" class="form__input" placeholder="Ваши номера" required name="user_numbers">
+                            </div>
+                        <button type="submit" class="form__order-btn button ">
+                            Заказать
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="advantages" id="advantages">
+        <div class="container">
+            <h3 class="advantages__title">Преимущества</h3>
+            <div class="advantages__info">
+                <img class="advantages__img" src="img/bmw-logo.png" alt="">
+                <div class="advantages__block">
+                    <div class="list-item">
+                        <img class="list-item__logo" src="img/times-square.png" alt="">
+                        <div class="list-item__about">
+                            <h4 class="list-item__short-title">Lorem Ipsum</h4>
+                            <p class="list-item__short-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor incididunt ut labore et dolore magna aliqua.Quis</p>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <img class="list-item__logo" src="img/document.png" alt="">
+                        <div class="list-item__about">
+                            <h4 class="list-item__short-title">Lorem Ipsum</h4>
+                            <p class="list-item__short-text">Lorem ipsum dolor sit amet, consectetur adipisc</p>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <img class="list-item__logo" src="img/business-and-finance.png" alt="">
+                        <div class="list-item__about">
+                            <h4 class="list-item__short-title">Lorem Ipsum</h4>
+                            <p class="list-item__short-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor incidi </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="price" id="price">
+        <div class="container">
+        <h3 class="price__title">Стоимость</h3>
+        <div class="price__info">
+            <div class="price__block">
+                <h4 class="price__short-title">Lorem Ipsum</h4>
+                <div class="price__item">
+                    <img class="price__item-img" src="img/interface.png" alt="">
+                    <div class="price__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor</div>
+                </div>
+                <div class="price__item">
+                    <img class="price__item-img" src="img/interface.png" alt="">
+                    <div class="price__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor</div>
+                </div>
+                <div class="price__item">
+                    <img class="price__item-img" src="img/interface.png" alt="">
+                    <div class="price__text">Lorem ipsum dolor sit amet, consectetur</div>
+                </div>
+                <div class="price__discount">
+                    <div class="price__old">399 грн</div>
+                    <div class="price__new">299 <span class="price__new-span">грн</span></div>
+                </div>
+                <button type="button" class="price__btn button callback-button">
+                    Заказать
+                </button>
+            </div>
+            <div class="price__block">
+                <h4 class="price__short-title">Lorem Ipsum</h4>
+                <div class="price__item">
+                    <img class="price__item-img" src="img/interface.png" alt="">
+                    <div class="price__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor</div>
+                </div>
+                <div class="price__item">
+                    <img class="price__item-img" src="img/interface.png" alt="">
+                    <div class="price__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor</div>
+                </div>
+                <div class="price__item">
+                    <img class="price__item-img" src="img/interface.png" alt="">
+                    <div class="price__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor</div>
+                </div>
+                <div class="price__discount">
+                    <div class="price__old">599 грн</div>
+                    <div class="price__new">499 <span class="price__new-span">грн</span></div>
+                </div>
+                <button type="button" class="price__btn button callback-button">
+                    Заказать
+                </button>
+            </div>
+        </div>
+        <div class="price__text-last">
+            <span class="price__text-last-span">*</span> Lorem ipsum dolor sit amet,
+        </div>
+        </div>
+    </section>
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <h3 class="reviews__title">Отзывы</h3>
+            <div class="slider">
+                <div class="slider__wrapper">
+                  <div class="slider__item">
+                    <img src="img/slide-1.png" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="img/slide-1.png" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="img/slide-1.png" alt="">
+                  </div>
+                </div>
+                <a class="slider__control slider__control_left" href="#" role="button"></a>
+                <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <img class="footer__logo" src="img/footer.png" alt="">
+            <a href="#up" class="footer__navigation">Наверх</a>
+        </div>
+    </section>
+    <section class="popup" id="popup">
+        <div class="popup__container popup__container_form">
+            <form action="/" class="callback">
+                <span class="callback__title">Заявка</span>
+                <input class="callback__input" type="text" placeholder="Имя" name="user_name" required>
+                <input class="callback__input" type="text" placeholder="Телефон" name="user_phone" required>
+                <input class="callback__input" type="text" placeholder="Ваши номера" name="user_numbers" required>
+                <button class="button callback__button" type="submit">Заказать</button>
+                <img  class="popup__close popup__close_callback" src="img/close.png" alt="">
+            </form>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
