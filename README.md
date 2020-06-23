@@ -1,5 +1,5 @@
 # Landing-Page
 
-Adaptive landing page with slider using Javascript
+Adaptive landing page with slider using Vanilla Javascript.
 
-# Demo: wizardiq.github.io/Landing-Page/
+Demo: <a href="https://wizardiq.github.io/Landing-Page/" target="_blank">Landing Page </a>
